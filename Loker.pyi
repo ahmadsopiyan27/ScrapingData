@@ -8,8 +8,8 @@ import requests
 
 # base_url = f'https://id.jobstreet.com/id/qa-automation-jobs/in-jakarta'
 
-response = requests.get(base_url)
-soup = BeautifulSoup(response.text, 'html.parser')
+# response = requests.get(base_url)
+# soup = BeautifulSoup(response.text, 'html.parser')
 
 # print(soup)
 
@@ -41,6 +41,8 @@ def scrape_jobstreet_jobs(position,location):
 
 
     return jobs
+
+
 
 job_position = input('masukin posisi yang dicari: ')
 job_location = input('dimana lokasinya?: ')
