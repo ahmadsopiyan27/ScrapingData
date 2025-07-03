@@ -42,6 +42,8 @@ def scrape_jobstreet_jobs(position,location):
 
     return jobs
 
+
+
 job_position = input('masukin posisi yang dicari: ')
 job_location = input('dimana lokasinya?: ')
 
@@ -55,5 +57,6 @@ df=pd.DataFrame(job_list)
 
 df.to_excel('lowongan_jobstreet.xlsx', index=False)
 
+#  kaga bisa bang
 print('udah bang!')
     
