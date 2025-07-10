@@ -12,7 +12,7 @@ import requests
 # soup = BeautifulSoup(response.text, 'html.parser')
 
 # print(soup)
-# kaga nemu datanya
+
 
 def scrape_jobstreet_jobs(position,location):
     position = position.lower().replace(' ', '-')
@@ -43,7 +43,7 @@ def scrape_jobstreet_jobs(position,location):
 
     return jobs
 
-
+# input
 
 job_position = input('masukin posisi yang dicari: ')
 job_location = input('dimana lokasinya?: ')
