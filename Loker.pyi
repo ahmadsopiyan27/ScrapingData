@@ -58,5 +58,6 @@ df=pd.DataFrame(job_list)
 df.to_excel('lowongan_jobstreet.xlsx', index=False)
 
 #  kaga bisa bang
+
 print('udah bang!')
     
